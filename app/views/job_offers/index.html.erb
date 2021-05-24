@@ -1,0 +1,17 @@
+<h1>登録している団体の募集情報一覧</h1>
+<table border='1'>
+  <tr>
+    <th>イベント名</th>
+    <th>概要</th>
+    <th>場所</th>
+    <th>募集主体名</th>
+  </tr>
+  <% @job_offers.each do |offer| %>
+  <tr>
+    <td><%= offer.heading %></td>
+    <td><%= offer.overview %></td>
+    <td><%= offer.place %></td>
+    <td><%= offer.company_name %></td>
+  </tr>
+  <% end %>
+</table>

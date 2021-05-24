@@ -1,0 +1,5 @@
+module JobOfferFormatter
+  
+  def 
+
+end
